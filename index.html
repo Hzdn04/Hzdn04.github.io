@@ -7,46 +7,53 @@
     <!-- css bootstrap -->
     <!-- <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.css"> -->
     <!-- css main -->
-    <link rel="stylesheet" href="styles/main.css">
+    <!-- <link rel="stylesheet" href="styles/main.css"> -->
     <!-- Icon -->
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
-    <title>My Portoflio</title>
+    <!-- <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>My Profile & Portfolio</title>
 </head>
-<body>
+<body class="bg-gray-200">
     <!-- Header -->
-    <header class="l-header">
-        <nav class="nav bd-grid">
-            <div>
-                <a href="#" class="nav__logo">Hafizzudin</a>
-            </div>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#" class="nav__link active">Home</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">About</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#skills" class="nav__link">Skills</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#contact" class="nav__link">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="bx bx-menu"></i>
-            </div>
+    <header>
+        <nav class="bg-white p-4 flex justify-between">
+            <a href="index.html">Home</a>
+            <a href="profile.html">Profile</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
 
-    <main class="l-main">
-
+    <main>
+        <section class="container mx-auto p-4">
+            <h1 class="text-2xl font-medium">My Profile</h1>
+            <img src="path/to/profile-picture.jpg" class="w-32 h-32 rounded-full mx-auto mb-4">
+            <p class="text-gray-700">Nama : John Doe</p>
+            <p class="text-gray-700">Email : johndoe@example.com</p>
+            <p class="text-gray-700">Telepon : +1234567890</p>
+        </section>
+    
+        <section class="container mx-auto p-4">
+            <h1 class="text-2xl font-medium">My Portfolio</h1>
+            <div class="grid grid-cols-3 gap-4">
+                <div>
+                    <img src="path/to/project-1.jpg" class="w-full">
+                    <p class="text-gray-700 text-center">Project 1</p>
+                </div>
+                <div>
+                    <img src="path/to/project-2.jpg" class="w-full">
+                    <p class="text-gray-700 text-center">Project 2</p>
+                </div>
+                <div>
+                    <img src="path/to/project-3.jpg" class="w-full">
+                    <p class="text-gray-700 text-center">Project 3</p>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- Home -->
-    <section class="home bd-grid" id="home">
+    <!-- <section class="home bd-grid" id="home">
         <div class="home__data">
             <h1 class="home__title">Hi, <br>I'am <span class="home__title-color">Hafizzudin</span><br> Web Designer</h1>
             <a href="#contact" class="button">Contact</a>
@@ -60,10 +67,10 @@
         <div class="home__img">
             <img src="images/icon porto.png" alt="">
         </div>
-    </section>
+    </section> -->
 
     <!-- About -->
-    <section class="about section" id="about">
+    <!-- <section class="about section" id="about">
         <h2 class="section-title">
             About
         </h2>
@@ -76,10 +83,10 @@
                 <p class="about__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, officia deleniti qui nesciunt commodi animi perferendis nisi. Numquam iusto aliquid nam dicta perferendis nisi nostrum vitae delectus, repellendus corrupti ex.</p>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- MySkill -->
-    <section class="skills section" id="skills">
+    <!-- <section class="skills section" id="skills">
         <h2 class="section-title">My Skills</h2>
         <div class="skills__container bd-grid">
             <div>
@@ -111,10 +118,10 @@
                 <img src="images/skills.jpg" alt="" class="skills__img">
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Contact -->
-    <section class="contact section" id="contact">
+    <!-- <section class="contact section" id="contact">
         <h2 class="section-title">Contact</h2>
         <div class="contact__container bd-grid">
             <form action="#" class="contact__form" method="post">
@@ -124,10 +131,10 @@
                 <input type="button" value="Kirim" class="contact__button button">
             </form>
         </div>
-    </section>
+    </section> -->
 
     <!-- Footer -->
-    <footer class="footer">
+    <!-- <footer class="footer">
         <p class="footer__title">
             Hafizzudin
         </p>
@@ -137,7 +144,7 @@
             <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
         </div>
         <p>&#169; 2021 Copyright all right reserved</p>
-    </footer>
+    </footer> -->
 
     <!-- Scroll Reveal -->
     <script src="https://unpkg.com/scrollreveal"></script>
